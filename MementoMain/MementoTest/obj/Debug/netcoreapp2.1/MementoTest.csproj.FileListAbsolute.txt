@@ -1,0 +1,11 @@
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\bin\Debug\netcoreapp2.1\MementoTest.deps.json
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\bin\Debug\netcoreapp2.1\MementoTest.runtimeconfig.json
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\bin\Debug\netcoreapp2.1\MementoTest.runtimeconfig.dev.json
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\bin\Debug\netcoreapp2.1\MementoTest.dll
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\bin\Debug\netcoreapp2.1\MementoTest.pdb
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\obj\Debug\netcoreapp2.1\MementoTest.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\obj\Debug\netcoreapp2.1\MementoTest.AssemblyInfoInputs.cache
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\obj\Debug\netcoreapp2.1\MementoTest.AssemblyInfo.cs
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\obj\Debug\netcoreapp2.1\MementoTest.dll
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\obj\Debug\netcoreapp2.1\MementoTest.pdb
+C:\Users\Alexis\source\repos\MementoMain\MementoTest\obj\Debug\netcoreapp2.1\MementoTest.csprojAssemblyReference.cache

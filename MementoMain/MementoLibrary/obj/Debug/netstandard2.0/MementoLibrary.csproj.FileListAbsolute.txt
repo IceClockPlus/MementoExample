@@ -1,0 +1,9 @@
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\bin\Debug\netstandard2.0\MementoLibrary.deps.json
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\bin\Debug\netstandard2.0\MementoLibrary.dll
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\bin\Debug\netstandard2.0\MementoLibrary.pdb
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\obj\Debug\netstandard2.0\MementoLibrary.csprojAssemblyReference.cache
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\obj\Debug\netstandard2.0\MementoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\obj\Debug\netstandard2.0\MementoLibrary.AssemblyInfoInputs.cache
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\obj\Debug\netstandard2.0\MementoLibrary.AssemblyInfo.cs
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\obj\Debug\netstandard2.0\MementoLibrary.dll
+C:\Users\Alexis\source\repos\MementoMain\MementoLibrary\obj\Debug\netstandard2.0\MementoLibrary.pdb
