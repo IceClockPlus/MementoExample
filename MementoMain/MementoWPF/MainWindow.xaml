@@ -7,7 +7,62 @@
         xmlns:local="clr-namespace:MementoWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid >
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="80,97,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+    <Grid Background="AliceBlue" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="108*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Label>Rut Usuario</Label>
+            <TextBox Height="30" Width="auto" VerticalAlignment="Bottom" Controls:TextBoxHelper.Watermark="XX.XXX.XXX-X"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="0" >
+            <Label>Nombre</Label>
+            <TextBox Height="30" Width="auto" VerticalAlignment="Bottom" Controls:TextBoxHelper.Watermark="Nombre Usuario"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="0">
+            <Label>Apellido</Label>
+            <TextBox Height="30" Width="auto" VerticalAlignment="Bottom" Controls:TextBoxHelper.Watermark="Apellido Usuario"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="4" Grid.Column="0">
+            <Label>Fecha Nacimiento</Label>
+            <DatePicker Height="30" Width="auto" VerticalAlignment="Bottom"></DatePicker>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="2" >
+            <Label>Correo Electronico</Label>
+            <TextBox Height="30" Width="auto" VerticalAlignment="Bottom" Controls:TextBoxHelper.Watermark="Correo Usuario"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="2" >
+            <Label>Número Telefono</Label>
+            <TextBox Height="30" Width="auto" VerticalAlignment="Bottom" Controls:TextBoxHelper.Watermark="Correo Usuario"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="2" >
+            <Label>Sexo</Label>
+            <ComboBox  Height="30" Width="auto" VerticalAlignment="Bottom" Controls:TextBoxHelper.Watermark="Seleccione sexo"></ComboBox>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="0">
+            <Button Style="{StaticResource AccentedSquareButtonStyle}" Height="40">Registrar</Button>
+        </Grid>
+
+
+
     </Grid>
 </Controls:MetroWindow>

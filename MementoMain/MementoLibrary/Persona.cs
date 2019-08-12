@@ -10,6 +10,9 @@ namespace MementoLibrary
         private String _nombre;
         private String _apellido;
         private DateTime _fechaNac;
+        private String _email;
+        private int _telefono;
+        private Sexo _sexo;
 
         public String Rut
         {
@@ -35,14 +38,37 @@ namespace MementoLibrary
             set { _fechaNac = value; }
         }
 
+        public String Email
+        {
+            get { return _email; }
+            set { _email = value; }
+        }
+
+        public int Telefono
+        {
+            get { return _telefono; }
+            set { _telefono = value; }
+        }
+
+        public Sexo Sexo
+        {
+            get { return _sexo; }
+            set { _sexo = value; }
+        }
+
+
         public Persona()
         {
             this.Rut = String.Empty;
             this.Nombre = String.Empty;
             this.Apellido = String.Empty;
             this.FechaNac = DateTime.Today;
+            this.Email = string.Empty;
+            this.Telefono = 0;
+            this.Sexo = new Sexo();
         }
 
+       
         public String ListarDatos()
         {
             String datos = String.Format("Rut: {0} \nNombre Completo: {1} {2} \nFecha Nacimiento: {3}", this.Rut, this.Nombre, this.Apellido, this.FechaNac);
@@ -56,6 +82,9 @@ namespace MementoLibrary
             m.Nombre = this.Nombre;
             m.Apellido = this.Apellido;
             m.FechaNac = this.FechaNac;
+            m.Email = this.Email;
+            m.Telefono = this.Telefono;
+            m.Sexo = this.Sexo;
             return m;
         }
 
@@ -65,6 +94,9 @@ namespace MementoLibrary
             this.Nombre = m.Nombre;
             this.Apellido = m.Apellido;
             this.FechaNac = m.FechaNac;
+            this.Email = m.Email;
+            this.Telefono = m.Telefono;
+            this.Sexo = m.Sexo;
         }
 
     }

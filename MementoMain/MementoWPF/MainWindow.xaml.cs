@@ -25,6 +25,13 @@ namespace MementoWPF
         {
             InitializeComponent();
         }
+
+        //Función para adaptar el tamaño de las fuentes con el de la pantalla
+        private void Control_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            Control tmp = sender as Control;
+            tmp.FontSize = (e.NewSize.Height - e.NewSize.Height * .05d) / tmp.FontFamily.LineSpacing;
+        }
     }
 }
 
