@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<MementoPersona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Rut>19884186-2</Rut>
-  <Nombre>Alexis</Nombre>
-  <Apellido>Aravena</Apellido>
-  <FechaNac>2018-04-26T00:00:00</FechaNac>
-</MementoPersona>
